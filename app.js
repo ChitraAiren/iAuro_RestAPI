@@ -7,6 +7,7 @@ app.use(bodyParser.json());
 
 
 
+
 // app.get('/',(req,res) => {
 //     res.send("Hello World");
 // });
@@ -26,6 +27,6 @@ connectDB();
 
 
 //Routes
-app.use('/',require('./routes/index'));
+app.use('/',require('./routes/index_auth'));
 
 app.listen(3000);
